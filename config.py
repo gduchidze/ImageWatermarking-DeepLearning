@@ -42,7 +42,7 @@ class TestingConfig(Config):
     DB_PASSWORD = "pianalytix"
 
     UPLOADS = "/home/username/app/app/static/uploads"
-    SESSION_COOKIE_SECURE = True
+    SESSION_COOKIE_SECURE = False
 
  
 class DebugConfig(Config):
